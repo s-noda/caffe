@@ -29,5 +29,9 @@ make && sudo make install
 cd ../../..
 
 cd ..;
+if [ ! -e "Makefile.config" ];
+then
+    cp Makefile.config.example Makefile.config;
+fi
 CPU_ONLY=1 make;
 
