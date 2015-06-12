@@ -26,7 +26,7 @@ cd ../..
 git clone https://gitorious.org/mdb/mdb.git
 cd mdb/libraries/liblmdb
 make && sudo make install
-cd ..
+cd ../../..
 
 cd ..;
 CPU_ONLY=1 make;
